@@ -2,7 +2,7 @@
 
 ![Pd089JL4bx](https://github.com/GhoulBoii/firefox/assets/78494833/4d3f5615-0f67-43c6-97c8-b596aff7bbe9)
 
-### Extensions I Use
+## Extensions I Use
 
 - uBlock Origin
 - Sidebery
