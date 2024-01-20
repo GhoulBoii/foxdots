@@ -1,4 +1,7 @@
 **
+!.github
+!.github/LICENSE.md
+!.github/README.md
 !.gitignore
 !chrome
 !chrome/userChrome.css
