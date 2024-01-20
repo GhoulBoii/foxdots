@@ -5,6 +5,8 @@
 !.gitignore
 !chrome
 !chrome/userChrome.css
+!sideberry
+!sideberry/sideberry.css
 !prefsCleaner.bat
 !prefsCleaner.sh
 !updater.bat
