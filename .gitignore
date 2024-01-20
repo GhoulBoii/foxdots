@@ -1,0 +1,10 @@
+**
+!.gitignore
+!chrome
+!chrome/userChrome.css
+!prefsCleaner.bat
+!prefsCleaner.sh
+!updater.bat
+!updater.sh
+!user-overrides.js
+
