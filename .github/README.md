@@ -1,6 +1,8 @@
 <h1 align="center">Firefox Dots</h1>
 
-![Pd089JL4bx](https://github.com/GhoulBoii/firefox/assets/78494833/4d3f5615-0f67-43c6-97c8-b596aff7bbe9)
+<p align="center">
+  <img src="https://github.com/GhoulBoii/firefox/assets/78494833/4d3f5615-0f67-43c6-97c8-b596aff7bbe9" />
+</p>
 
 ## Extensions I Use
 
