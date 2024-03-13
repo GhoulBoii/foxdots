@@ -12,8 +12,8 @@ copy userjs\prefsCleaner.sh .
 copy userjs\user.js .
 
 rem Copy files from VerticalFox submodule
-copy VerticalFox\windows .
-copy VerticalFox\sideberry .
+copy VerticalFox\windows\ .
+copy VerticalFox\sideberry\ .
 
 rem Move the 'windows' directory to 'chrome'
-move windows chrome
+move windows\ chrome\
