@@ -1,15 +1,12 @@
 **
+!VerticalFox
+!VerticalFox/**
+!user.js
+!user.js/**
 !.github
 !.github/LICENSE.md
 !.github/README.md
 !.gitignore
-!chrome
-!chrome/userChrome.css
-!sideberry
-!sideberry/sideberry.css
-!prefsCleaner.bat
-!prefsCleaner.sh
-!updater.bat
-!updater.sh
+!.gitmodules
 !user-overrides.js
 
