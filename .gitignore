@@ -3,9 +3,8 @@
 !VerticalFox/**
 !userjs
 !userjs/**
-!.github
-!.github/LICENSE.md
-!.github/README.md
+!LICENSE.md
+!README.md
 !.gitignore
 !.gitmodules
 !setup.sh

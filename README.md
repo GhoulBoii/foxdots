@@ -25,22 +25,16 @@
 
 ## Installation
 
-### For Linux,
+Navigate into your firefox profile directory
 ```bash
-git clone https://github.com/ghoulboii/firefox
-mv firefox/* LOCATION/OF/FIREFOX/PROFILE/
-cd LOCATION/OF/FIREFOX/PROFILE/
-./updater.sh
-```
-
-### For Windows,
-```powershell
-git clone https://github.com/ghoulboii/firefox
-mv firefox/* LOCATION/OF/FIREFOX/PROFILE/
-cd LOCATION/OF/FIREFOX/PROFILE/
-./updater.bat
+git init
+git remote add origin https://github.com/ghoulboii/firefox
+git fetch
+git checkout origin/master -ft
+./updater.sh  # If using Linux
+./updater.bat #If using Windows
 ```
 
 ## License
 
-This project is licensed under the GPL-3.0 License - see the [License](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [License](LICENSE.md) file for details.
