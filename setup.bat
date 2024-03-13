@@ -7,11 +7,9 @@ rem Update submodules to their latest remote commits
 git submodule update --recursive --remote
 
 rem Copy files from user.js submodule
-robocopy userjs\updater.bat .
-robocopy userjs\prefsCleaner.bat .
-robocopy userjs\user.js .
+robocopy userjs . user.js prefsCleaner.bat updater.bat
 
 rem Copy files from VerticalFox submodule
 robocopy VerticalFox\windows\ chrome
-robocopy VerticalFox\sideberry\ sideberry
+robocopy VerticalFox\sidebery\ sidebery
 
