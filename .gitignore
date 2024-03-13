@@ -8,5 +8,7 @@
 !.github/README.md
 !.gitignore
 !.gitmodules
+!setup.sh
+!setup.bat
 !user-overrides.js
 
