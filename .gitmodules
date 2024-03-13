@@ -1,5 +1,5 @@
 [submodule "user.js"]
-	path = user.js
+	path = userjs
 	url = https://github.com/arkenfox/user.js
 [submodule "VerticalFox"]
 	path = VerticalFox
