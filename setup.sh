@@ -1,5 +1,13 @@
 #!/bin/sh
+
 echo -n "Enter name of the firefox profile: " && read name
+addonlist="ublock-origin,
+bitwarden-password-manager,
+darkreader,
+sidebery,
+sponsorblock,
+windscribe,
+violentmonkey"
 
 echo "Creating Profile"
 firefox -CreateProfile $name
@@ -21,14 +29,14 @@ mv windows chrome
 echo "Git Repo Initialised"
 
 echo "Downloading Addons"
-addonlist="ublock-origin bitwarden-password-manager darkreader"
 addontmp="$(mktemp -d)"
 echo "doing trap"
 trap "rm -fr $addontmp" HUP INT QUIT TERM PWR EXIT
 mozillaurl="https://addons.mozilla.org"
-IFS=' '
+IFS=$'\n,'
 mkdir -p "$path/extensions/"
 for addon in $addonlist; do
+	echo "Installing $addon"
 	addonurl="$(curl --silent "$mozillaurl/en-US/firefox/addon/${addon}/" | grep -o "$mozillaurl/firefox/downloads/file/[^\"]*")"
 	file="${addonurl##*/}"
 	curl -LOs "$addonurl" >"$addontmp/$file"

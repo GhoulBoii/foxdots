@@ -27,14 +27,18 @@
 
 Navigate into your firefox profile directory
 ```bash
-git init
-git remote add origin https://github.com/ghoulboii/firefox
-git fetch
-git checkout origin/master -ft
 ./updater.sh  # If using Linux
-./updater.bat #If using Windows
+./updater.bat # If using Windows
 ```
 
 ## License
 
 This project is licensed under the MIT License - see the [License](LICENSE.md) file for details.
+
+## Credits
+
+- [LARBS](https://github.com/LukeSmithxyz/LARBS) from Luke Smith for addons code
+- VerticalFox for the userChrome.css hacks
+- Arkenfox user.js for a privacy-minded user.js
+
+
