@@ -9,5 +9,6 @@
 !.gitmodules
 !setup.sh
 !setup.bat
+!setup.ps1
 !user-overrides.js
 
