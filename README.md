@@ -15,9 +15,15 @@
 
 ## 💻 Installation
 
-Make sure git, firefox and the standard gnu tools (sed, curl etc.)
+Make sure git and Firefox is installed.
 ```bash
-./setup.sh
+git init
+git remote add origin https://github.com/ghoulboii/firefox
+git fetch
+git checkout origin/master -ft
+git submodule update --init --recursive --remote
+./setup.sh  -- Linux
+./setup.ps1 -- Windows
 ```
 
 ## 📃 License
