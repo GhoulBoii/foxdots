@@ -16,21 +16,14 @@ path="/home/$(whoami)/.mozilla/firefox/$folder"
 cd $path
 echo "Profile Creation Finished"
 
-echo "Initialising Git Repo"
-git init
-git remote add origin https://github.com/ghoulboii/firefox
-git fetch
-git checkout origin/master -ft
-git submodule update --init --recursive
-git submodule update --recursive --remote
+echo "Moving Files Around"
 cp userjs/{updater.sh,prefsCleaner.sh,user.js} .
 cp -r VerticalFox/{windows,sidebery} .
 mv windows chrome
-echo "Git Repo Initialised"
+echo "Movement Finished"
 
 echo "Downloading Addons"
 addontmp="$(mktemp -d)"
-echo "doing trap"
 trap "rm -fr $addontmp" HUP INT QUIT TERM PWR EXIT
 mozillaurl="https://addons.mozilla.org"
 IFS=$'\n,'
