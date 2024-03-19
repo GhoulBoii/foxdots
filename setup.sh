@@ -21,8 +21,7 @@ git init
 git remote add origin https://github.com/ghoulboii/firefox
 git fetch
 git checkout origin/master -ft
-git submodule update --init --recursive
-git submodule update --recursive --remote
+git submodule update --init --recursive --remote
 cp userjs/{updater.sh,prefsCleaner.sh,user.js} .
 cp -r VerticalFox/{windows,sidebery} .
 mv windows chrome
@@ -30,7 +29,6 @@ echo "Git Repo Initialised"
 
 echo "Downloading Addons"
 addontmp="$(mktemp -d)"
-echo "doing trap"
 trap "rm -fr $addontmp" HUP INT QUIT TERM PWR EXIT
 mozillaurl="https://addons.mozilla.org"
 IFS=$'\n,'

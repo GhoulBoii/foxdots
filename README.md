@@ -17,11 +17,6 @@
 
 Make sure git and Firefox is installed.
 ```bash
-git init
-git remote add origin https://github.com/ghoulboii/firefox
-git fetch
-git checkout origin/master -ft
-git submodule update --init --recursive --remote
 ./setup.sh  -- Linux
 ./setup.ps1 -- Windows
 ```
