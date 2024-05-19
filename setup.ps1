@@ -29,6 +29,7 @@ git submodule update --init --recursive --remote
 robocopy userjs . user.js prefsCleaner.bat updater.bat
 robocopy VerticalFox\windows\ chrome
 robocopy VerticalFox\sidebery\ sidebery
+.\updater.bat -unattended
 Write-Host "Git Repo Initialised" -ForegroundColor Green
 
 Write-Host "Downloading Addons" -ForegroundColor Green

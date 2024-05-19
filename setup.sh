@@ -25,6 +25,7 @@ git submodule update --init --recursive --remote
 cp userjs/{updater.sh,prefsCleaner.sh,user.js} .
 cp -r VerticalFox/{windows,sidebery} .
 mv windows chrome
+./updater.sh -s
 echo "Git Repo Initialised"
 
 echo "Downloading Addons"
