@@ -8,10 +8,10 @@
 ## 🎨 Customisation
 
 - Alter the path of your firefox directory, if incorrect. (KEEP $folder AT THE END)
-  https://github.com/GhoulBoii/firefox/blob/9c9bb5c4b16761882f9700e6f0c006d8a93ef091/setup.sh#L15
+  https://github.com/GhoulBoii/foxdots/blob/7aefeb4a8ccd489a3be20352ca8eabb266d79d7a/setup.sh#L15
 
 - Add/remove your preferred addons in the addons list.
-  https://github.com/GhoulBoii/firefox/blob/9c9bb5c4b16761882f9700e6f0c006d8a93ef091/setup.sh#L4-L10
+  https://github.com/GhoulBoii/foxdots/blob/7aefeb4a8ccd489a3be20352ca8eabb266d79d7a/setup.sh#L4-L10
 
 ## 💻 Installation
 
