@@ -4,6 +4,7 @@ echo -n "Enter name of the firefox profile: " && read name
 addonlist="ublock-origin,
 bitwarden-password-manager,
 darkreader,
+libredirect,
 sidebery,
 sponsorblock,
 windscribe,
