@@ -2,6 +2,7 @@ $addonlist = @"
 ublock-origin,
 bitwarden-password-manager,
 darkreader,
+libredirect,
 sidebery,
 sponsorblock,
 windscribe,
