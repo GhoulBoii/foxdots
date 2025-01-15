@@ -1,16 +1,9 @@
-$addonlist = @"
-ublock-origin,
-bitwarden-password-manager,
-darkreader,
-libredirect,
-sidebery,
-sponsorblock,
-windscribe,
-violentmonkey
-"@
-
 Write-Host "Enter name of the firefox profile: " -ForegroundColor Green -NoNewline
 $name = Read-Host
+
+# Read the JSON file
+$jsonContent = Get-Content -Raw -Path "config.json" | ConvertFrom-Json
+$addonlist = $jsonContent.addonlist
 
 Write-Host "Creating Profile" -ForegroundColor Green
 Start-Process "firefox" -ArgumentList "-CreateProfile $name"

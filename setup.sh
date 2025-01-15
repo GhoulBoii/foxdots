@@ -1,14 +1,9 @@
 #!/bin/sh
 
 echo -n "Enter name of the firefox profile: " && read name
-addonlist="ublock-origin,
-bitwarden-password-manager,
-darkreader,
-libredirect,
-sidebery,
-sponsorblock,
-windscribe,
-violentmonkey"
+
+# Read the JSON file and extract the extension list as a single string
+extension_lists=$(grep -oP '"extension_lists":\s*\[\K[^\]]+' extensions.json | tr -d ' ",')
 
 echo "Creating Profile"
 firefox -CreateProfile $name
