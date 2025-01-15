@@ -10,5 +10,6 @@
     "ublock-origin",
     "violentmonkey",
     "windscribe"
-  ]
+  ],
+  "firefox_profile_path": ""
 }
