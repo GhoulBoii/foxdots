@@ -1,6 +1,6 @@
 **
-!VerticalFox
-!VerticalFox/**
+!chrome
+!chrome/userChrome.css
 !userjs
 !userjs/**
 !LICENSE.md
